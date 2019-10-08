@@ -1,16 +1,6 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
-
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: <a href="//play.google.com/store/apps/details?id=org.mopcon.session.app" target="_blank">MOPCON App</a>
+  role: Full-Stack Engineer
+  duration: Sep, 2017
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
-
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: Cooperated with <a href="//mopcon.org" target="_blank">MOPCON</a> officials to develop the app used on the days of the agenda. With account sign-in, live heat map, badge collecting game, agenda notification and other functions, developed and deployed the back-end service for 1,099 participants on the days.

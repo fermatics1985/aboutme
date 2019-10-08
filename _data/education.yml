@@ -1,13 +1,5 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
-
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Master of Computer Science
+  uni: National Kaohsiung University of Applied Sciences
+  year: 2008 &mdash; 2010
+  summary: Designed and implemented a scalable web server architecture, which was launched in June 2010 and provided 33 colleges and universities' e-learning and cross-school course-selection services.

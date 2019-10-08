@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/avatar.png" alt="my photo" class="avatar" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -146,7 +146,6 @@
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
         {% endfor %}
@@ -168,6 +167,46 @@
           <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
           <p class="resume-item-copy">{{ association.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Associations -->
+      {% endif %}
+
+      {% if site.resume_section_talks %}
+      <!-- begin Talks -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Talks</h2>
+        </header>
+
+        {% for talk in site.data.talks %}
+        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{% if talk.url %}<a href="{{ talk.url }}" target="_blank">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ talk.role }} &bull; {{ talk.year }}</h4>
+          <p class="resume-item-copy">{{ talk.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Associations -->
+      {% endif %}
+
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+
+        {% for publication in site.data.publications %}
+        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{% if publication.url %}<a href="{{ publication.url }}" target="_blank">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ publication.role }} &bull; {{ publication.year }}</h4>
+          <p class="resume-item-copy">{{ publication.summary }}</p>
         </div>
         {% endfor %}
 
@@ -232,8 +271,6 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
       </footer>
 
     </div>

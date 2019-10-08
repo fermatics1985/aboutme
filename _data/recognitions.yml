@@ -1,10 +1,6 @@
 # Recognitions
-- award: Outstanding Achievement
-  organization: Springfield Young Professionals
-  year: 2010, 2014
-  summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
-
-- award: Most Likely To Succeed
-  organization: Springfield High School
-  year: 2004
-  summary: Voted Most Likely To Succeed by a panel of my high school peers.
+- award: Chunghwa Telecom Value-added Application Contest, Honorable Mention, 2009
+  summary: |
+    <li>Presented a platform on that students could share their lives (texts, locations, photos, etc...) in the campus with their handheld phones.</li>
+    <li>Designed and implemented a LBS (Location-Based Service) platform, including Directory, Device Gateway, Publish/Subscribe, Messaging and other modules.</li>
+    <li>Implemented a J2ME client application, featuring online/offline notification, text messaging, GPS positioning, area-entering detection, album browsing, and photo uploading.</li>
