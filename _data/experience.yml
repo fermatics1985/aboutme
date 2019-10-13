@@ -1,19 +1,39 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- position: Sr. SRE engineer
+  duration: Oct, 2018 &mdash; Now
+  summary: |
+    <li>Empower an IT's daily works with a production-grade, hybrid, multi-cloud DevOps service platform that centralizes resource provisioning and automations.</li>
+    <li>Develop with serverless framework, architect with microservices and deploy on Kubernetes at a level of 330+ pods per cluster.</li>
+    <li>Engage with service owners to improve the entire service lifecycle — from inception and design, through deployment, operation, maintenance, and sunset.</li>
+    <li>Help service owners maintain their services once they are live by measuring and monitoring availability, latency, and overall system health.</li>
+    <li>Practice and evangelize sustainable incident response and blameless postmortems.</li>
+    <li>Implement full IaC (Infrastructure as Code) as well as CI/CD pipelines which form the basis of daily fast-moving product release.</li>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- position: Co-founder & Technical Director
+  duration: Apr, 2015 &mdash; Jun, 2018
+  summary: |
+    <li>Designed the core architecture of a web-based IoT technology that allows browsers to communicate directly with Arduino by implementing standard communication protocols.</li>
+    <li>Designed and implemented the JS code. The modular design made the sensors easy to implement and extend. The data could be transmitted via WiFi, bluetooth or serial port.</li>
+    <li>Designed, implemented, and hosted a cloud-based development environment. The integrated environment enabled users to manage devices, firmware update, and develop IoT applications online. With Blockly's drag-and-drop interface, the IoT application development threshold was significantly reduced.</li>
+    <li>Designed and deployed a scalable service architecture using container technology, with more than 15,000 registered devices by June 2018.</li>
+    <li>Built the CI/CD platform and establish the standard process, that formed the basis of an 24/7, always-ongoing online service.</li>
+    <li>Led the RD team to develop products with other vendors.</li>
+    <li>Product advocate. Hold 40+ classes and events annually to introduce the product and technology.</li>
+    <li>Planned and executed various exhibitions.</li>
 
+- position: Software Engineer
+  duration: Nov, 2011 &mdash; Mar, 2015
+  summary: |
+    <li>Developed a GWT-based UI toolkit for the company group's internal ERP system. The product featured component-based, XML description language, as well as a drag-and-drop online builder. Similar products were ZK, PrimeFaces.</li>
+    <li>Developed automated UI testing tools, with visual testing techniques like comparing differences between screenshots to detect UI action errors that are difficult (eg. drag and drop) in traditional ways. Also designed a distributed back-end architecture that allowed tests to be paralleled across multiple VMs.</li>
+    <li>Developed a online visual design tools that made web/hybrid app creation very easy.</li>
+    <li>Designed and deployed a scalable architecture for online services. The app-building services were distributed across several VMs and the system capability could be expanded without service interruption.</li>
+    <li>Built the CI/CD platform and establish the standard process, that formed the basis of an 24/7, always-ongoing online service.</li>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- position: Corporal
+  duration: Oct, 2010 &mdash; Sep, 2011
+  summary: |
+    <li>Developed the management system of an attack and defense simulation training system (like wargame), with functions such as scenario addition, editing, answering records, and online scenario switching.</li>
+    <li>Designed scenarios involving Windows hosts, Linux hosts, routers and firewalls, and questions about network security.</li>
+    <li>Managed and maintained VM clusters with VMWare ESXi servers that allowed two teams of 20 players to work online.</li>
+    <li>Designed and implemented a security software used in the military that automatically detected whether the setting of computers was in compliance with the principle of security.</li>

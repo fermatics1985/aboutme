@@ -1,12 +1,75 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Programming Languages
+  description: |
+    <li>JavaScript</li>
+    <li>Node.JS</li>
+    <li>PHP</li>
+    <li>Java</li>
+    <li>Python</li>
+    <li>C++</li>
+    <li>Perl</li>
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Frameworks
+  description: |
+    <label>Frontend</label>
+    <ul>
+      <li>Bootstrap</li>
+      <li>AngularJS</li>
+      <li>React</li>
+    </ul>
+    <label>Node.JS</label>
+    <ul>
+      <li>Express</li>
+      <li>LoopBack</li>
+    </ul>
+    <label>PHP</label>
+    <ul>
+      <li>Laravel</li>
+      <li>CodeIgniter</li>
+      <li>WordPress</li>
+    </ul>
+    <label>Java</label>
+    <ul>
+      <li>GWT</li>
+      <li>Spring</li>
+    </ul>
+    <label>Serverless</label>
+    <ul>
+      <li>OpenFaas</li>
+      <li>Serverless</li>
+    </ul>
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Infrastructures (& Cloud Providers)
+  description: |
+    <li>Kubernetes</li>
+    <li>RancherOS</li>
+    <li>OpenShift</li>
+    <li>CloudFoundry</li>
+    <li>AWS</li>
+    <li>GCP</li>
+
+- skill: DevOps/SRE Tools
+  description: |
+    <li>Docker</li>
+    <li>Ansible</li>
+    <li>Shell Scripts</li>
+    <li>Terraform</li>
+    <li>Prometheus</li>
+    <li>Jenkins</li>
+    <li>Gitlab</li>
+    <li>ELK</li>
+    <li>Jaeger</li>
+
+- skill: Databases
+  description: |
+    <li>MySQL</li>
+    <li>SQL Server</li>
+    <li>MongoDB</li>
+    <li>Redis</li>
+
+- skill: Message Queues
+  description: |
+    <li>RabbitMQ</li>
+    <li>Kafka</li>
+    <li>ApolloMQ</li>
+    <li>JMS</li>
