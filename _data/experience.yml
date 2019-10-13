@@ -7,7 +7,7 @@
     <li>Engage with service owners to improve the entire service lifecycle — from inception and design, through deployment, operation, maintenance, and sunset.</li>
     <li>Help service owners maintain their services once they are live by measuring and monitoring availability, latency, and overall system health.</li>
     <li>Practice and evangelize sustainable incident response and blameless postmortems.</li>
-    <li>Implement full IaC (Infrastructure as Code) as well as CI/CD pipelines which form the basis of daily fast-moving product release.</li>
+    <li>Implement full IaC (Infrastructure as Code) as well as automated CI/CD pipelines which enable more than seven product releases a week.</li>
 
 - position: Co-founder & Technical Director
   duration: Apr, 2015 &mdash; Jun, 2018
