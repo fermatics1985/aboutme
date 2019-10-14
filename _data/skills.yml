@@ -16,6 +16,14 @@
       <li>Bootstrap</li>
       <li>AngularJS</li>
       <li>React</li>
+      <li>WebComponents</li>
+    </ul>
+    <label>App</label>
+    <ul>
+      <li>React Native</li>
+      <li>JQuery Mobile</li>
+      <li>Framework7</li>
+      <li>Cordova</li>
     </ul>
     <label>Node.JS</label>
     <ul>
